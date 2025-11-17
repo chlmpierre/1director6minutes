@@ -89,6 +89,8 @@ iframe {
   height: auto; 
   object-fit: contain;
   cursor: pointer;
+  justify-content: center;
+  aling-content: center;
 }
 
 .film {
