@@ -1,11 +1,11 @@
 html { 
 scroll-snap-type: y mandatory;
-scroll-padding-top: 30px;
+scroll-padding-top: 0px;
 } 
 @font-face {
     font-family: 'mul'; 
     src: url('mulhollanddrive.woff2') format('woff2'), 
-         url('Bimbo.woff') format('woff');  
+         /*url('Bimbo.woff') format('woff');*/  
     font-weight: normal;
     font-style: normal;
 }
@@ -81,7 +81,7 @@ header {
 
 .video-wrapper {
   max-width: 73%; 
-  max-height: 100vh; 
+  max-height: 80vh; 
   width: 100%;
   height: auto;
 }
