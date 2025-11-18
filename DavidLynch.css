@@ -90,7 +90,7 @@ iframe {
   object-fit: contain;
   cursor: pointer;
   justify-content: center;
-  aling-content: center;
+  /*aling-content: center;*/
 }
 
 .film {
