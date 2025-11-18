@@ -1,6 +1,6 @@
 html { 
 scroll-snap-type: y mandatory;
-scroll-padding-top: 0px;
+scroll-padding-top: 100px;
 } 
 
 nav {
@@ -91,8 +91,6 @@ iframe {
   cursor: pointer;
   justify-content: center;
   /*aling-content: center;*/
-  position: absolute
-  top: 600px;
 }
 
 .film {
