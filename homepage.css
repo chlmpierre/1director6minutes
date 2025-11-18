@@ -7,7 +7,7 @@
 }
 
 :root {
-  --card-height: 100%;
+  --card-height: 300px;
   --card-width: calc(var(--card-height) / 1.5);
 }
 * {
@@ -187,8 +187,8 @@ width: 150%;
 }
 
 .poster-row img {
-    height: 300%; 
-    width: 230%; 
+    height: 300px; 
+    width: 230px; 
     transition: transform 0.3s ease; 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 
