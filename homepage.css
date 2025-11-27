@@ -27,6 +27,7 @@ body {
   opacity: 0;        
   transition: opacity 1s ease-in-out;
   background-image: url("back.png");
+filter: brightness(15%);
 }
 
 .carte {
