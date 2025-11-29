@@ -35,6 +35,12 @@ height: auto;
 filter: brightness(25%);
 }
 
+.back img{
+    width: 100%
+    height: 100%
+  
+}
+
 .carte {
     display: flex;
     justify-content: center;
