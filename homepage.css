@@ -32,20 +32,15 @@ body {
 .back {
   width: 100%;
   min-height: 100vh;
-  /* Utilisez le filter sur le conteneur si vous voulez que toute la zone soit sombre */
   filter: brightness(25%); 
-  /* Utilisez Flexbox sur le conteneur pour centrer l'image */
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
+  justify-content: center;
+  align-items: center;
 }
 
 .back img {
-  /* Indique à l'image de s'adapter à la taille de son conteneur */
   max-width: 120%;
   max-height: 120%; 
-  
-  /* LA PROPRIÉTÉ CLÉ : Garantit que l'image entière est visible */
   object-fit: contain; 
 }
 
