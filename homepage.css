@@ -29,12 +29,24 @@ body {
 
 }
 
-.back{
-width: 100%;
-filter: brightness(25%);
-    min-height: 100vh;
-    position: center center;
-    img: contain;
+.back {
+  width: 100%;
+  min-height: 100vh;
+  /* Utilisez le filter sur le conteneur si vous voulez que toute la zone soit sombre */
+  filter: brightness(25%); 
+  /* Utilisez Flexbox sur le conteneur pour centrer l'image */
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+}
+
+.back img {
+  /* Indique à l'image de s'adapter à la taille de son conteneur */
+  max-width: 100%;
+  max-height: 100%; 
+  
+  /* LA PROPRIÉTÉ CLÉ : Garantit que l'image entière est visible */
+  object-fit: contain; 
 }
 
 .carte {
