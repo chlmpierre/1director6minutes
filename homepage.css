@@ -26,7 +26,12 @@ body {
   visibility: hidden; 
   opacity: 0;        
   transition: opacity 1s ease-in-out;
-  background-image: url("back.png");
+
+}
+
+.back{
+width: 100vh;
+height: auto;
 filter: brightness(15%);
 }
 
